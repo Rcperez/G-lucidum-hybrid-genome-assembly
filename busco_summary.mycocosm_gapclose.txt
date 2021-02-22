@@ -1,0 +1,15 @@
+# BUSCO version is: 5.0.0 
+# The lineage dataset is: polyporales_odb10 (Creation date: 2020-08-05, number of species: 17, number of BUSCOs: 4464)
+# Summarized benchmarking in BUSCO notation for file /content/drive/MyDrive/genomictest/assemblies/second/gl_jgi_gapclose/iteration-3/gapclosed.fasta
+# BUSCO was run in mode: genome
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:95.8%[S:95.2%,D:0.6%],F:1.0%,M:3.2%,n:4464	   
+	4275	Complete BUSCOs (C)			   
+	4248	Complete and single-copy BUSCOs (S)	   
+	27	Complete and duplicated BUSCOs (D)	   
+	44	Fragmented BUSCOs (F)			   
+	145	Missing BUSCOs (M)			   
+	4464	Total BUSCO groups searched		   
