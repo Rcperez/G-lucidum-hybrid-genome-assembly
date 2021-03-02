@@ -7,7 +7,7 @@
 
 **Results** I was not able to significantly improve the assembly in my first pass. Using Flye and Pilon with approximately 8x long-reads and the original Illumina short-reads produced by JGI that were available from the SRA as of 02/2021, I was able to produce a draft *de novo* assembly with a Busco correctness score of 94.1%.
 
-**Future Work** I would process the raw traces from the MinION using Bonito to basecall and sequence correct thea new reads using Medaka. I would use the improved long-reads in conjunction with an optimized parametarization of LR_Gapcloser and the MycoCosm assembly, followed by a series of polishing steps using Racon for long-reads and Pilon for short-reads.
+**Future Work** I would process the raw traces from the MinION using Bonito to basecall and sequence correct the new reads using Medaka. I would use the improved long-reads in conjunction with an optimized parametarization of LR_Gapcloser and the MycoCosm assembly, followed by a series of polishing steps using Racon for long-reads and Pilon for short-reads.
 
 ## **Introduction**
 In addition to their ecological importance and role in the global carbon cycle, wood-degrading fungi (wood-fungi), such as the polypore *Ganoderma lucidum*, can be helpful partners for manufacturing bio-based products. In addition to food and medicine, domesticated, non-genetically modified wood-fungi are already helpful partners for creating leather-like materials, plastic foam packaging replacements and a variety of other applications. Synthetic biology for wood-fungi could enable a new class of bio-based products but genetic engineering foundations, such as reference-quality annotated genomes and readily available genetic parts, have yet to be realized.
