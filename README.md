@@ -31,8 +31,10 @@ I began by acquiring the Illumina short-reads produced by the JGI. I used SRA-to
 
 Once all the short- and long-reads were pre-processed I executed the processes outlined in the following schematics, using default parameters for all tools with the exception of the number of threads used, where applicable. 
 
+
 <img src="https://github.com/Rcperez/G-lucidum-hybrid-genome-assembly/blob/main/FlyeAssembly.jpg" width="400" align="left"/>
 <img src="https://github.com/Rcperez/G-lucidum-hybrid-genome-assembly/blob/main/HybridAssemblies.jpg" width="400" align="right"/>
+
 
 Upon completing the above processes I evaluated select assemblies with QUAST, using default parameters and the MycoCosm assembly as the reference assembly.
 
