@@ -22,7 +22,5 @@ Here, I attempted to use a total of 86385 MinION nanopore long-reads produced by
 
 ## **Methods**
 
-![alt text](HybridAssemblies.jpg "Attempted Hybrid Assemblies")
-
-<img src="https://github.com/Rcperez/G-lucidum-hybrid-genome-assembly/blob/main/HybridAssemblies.jpg" width="200" />
+<img src="https://github.com/Rcperez/G-lucidum-hybrid-genome-assembly/blob/main/HybridAssemblies.jpg" width="300" />
 
