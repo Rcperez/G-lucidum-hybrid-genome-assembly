@@ -34,9 +34,7 @@ Once all the short- and long-reads were pre-processed I executed the processes o
 <img src="https://github.com/Rcperez/G-lucidum-hybrid-genome-assembly/blob/main/FlyeAssembly.jpg" width="400" align="left"/>
 <img src="https://github.com/Rcperez/G-lucidum-hybrid-genome-assembly/blob/main/HybridAssemblies.jpg" width="400" align="right"/>
 
-<p Upon completing the above processes I evaluated select assemblies with QUAST, using default parameters and the MycoCosm assembly as the reference assembly.
-</p>
-
+Upon completing the above processes I evaluated select assemblies with QUAST, using default parameters and the MycoCosm assembly as the reference assembly.
 <p align="center">
   <img src="https://github.com/Rcperez/G-lucidum-hybrid-genome-assembly/blob/main/QUASTevals.jpg" width="400">
 </p>
