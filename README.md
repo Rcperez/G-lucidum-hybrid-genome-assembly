@@ -20,11 +20,15 @@ I used several *de novo* assembly tools that are commonly used by the bioinforma
     
 ## **Results**
 
+I was not able to significantly improve the assembly in my first pass. Using Flye and Pilon with approximately 8x long-reads and the original Illumina short-reads produced by JGI that were available from the SRA as of 02/2021, I was able to produce a draft *de novo* assembly with a BUSCO completeness score of 94.1%. The polished Flye assembly is 39015904 bp; has an NGA50 of 296900 bp; and is composed of 137 contigs. 
 
+The polished, gapclosed, merged assembly composed of the MycoCosm assembly, the polished flye assembly, and the LR Gapclosed assembly is characterized by a NGA50 of 2873704 bp, 50 contigs and a total length of 41306650 bp.
+
+I abandoned several methods, such as HybridSPAdes because of computational resource limitations. Interestingly, after BBMap and minimap2 processing of short- and long-reads, respectively, HASLR produced a significantly shorter assembly, 34 Mbp, than expected, 39 Mbp.
 
 ## **Future Directions**
 
-I would process the raw traces from the MinION using Bonito to basecall and sequence correct thea new reads using Medaka. I would use the improved long-reads in conjunction with an optimized parametarization of LR_Gapcloser and the MycoCosm assembly, followed by a series of polishing steps using Racon for long-reads and Pilon for short-reads.
+In the absence of additional long-read sequencing resources, such as additional MinION reads or PacBio HiFi reads, I would process the raw traces from the MinION using Bonito to basecall and sequence correct thea new reads using Medaka. I would use the improved long-reads in conjunction with an optimized parametarization of LR Gapcloser and the MycoCosm assembly, followed by a series of polishing steps using Racon for long-reads and Pilon for short-reads.
 
 ## **Methods**
 I began by acquiring the Illumina short-reads produced by the JGI. I used SRA-tools to retrieve 3 files from the SRA. I then used the BBMap suite followed by fastp to pre-process the short-reads. I used minimap2 to pre-process the consolidated nanopore reads that were produced by MinKNOW.
