@@ -24,6 +24,8 @@ I was not able to significantly improve the assembly in my first pass. Using Fly
 
 The polished, gapclosed, merged assembly composed of the MycoCosm assembly, the polished flye assembly, and the LR Gapclosed assembly is characterized by a NGA50 of 2873704 bp, 50 contigs and a total length of 41306650 bp.
 
+QUAST determined the original MycoCosm assembly is characterized by a NGA50 of 2653920 bp, 156 contigs and a total length of 39522573 bp.
+
 I abandoned several methods, such as HybridSPAdes because of computational resource limitations. Interestingly, after BBMap and minimap2 processing of short- and long-reads, respectively, HASLR produced a significantly shorter assembly, 34 Mbp, than expected, 39 Mbp.
 
 ## **Future Directions**
