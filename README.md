@@ -5,7 +5,7 @@
 
 **How:** I generated a small amount of long-read data using a MinION nanopore sequencer and used that data with the attached notebook to produce the attached reports. I used readily-available tools, such as Flye and Pilon, to produce a draft *de novo* assembly as well as LR_Gapcloser to attempt to close gaps in the MycoCosm assembly. I used a genome reconciliation tool and evaluated all assemblies using QUAST and Busco. The graphic in the Methods section outlines my approach.
 
-**Results** I was not able to significantly improve the assembly in my first pass (02/2021). Using Flye and Pilon with approximately 8x long-reads and the original Illumina short-reads produced by JGI that were available from the SRA as of 02/2021, I was able to produce a draft *de novo* assembly with a Busco correctness score of 94.1%.
+**Results** I was not able to significantly improve the assembly in my first pass (02/2021). Using Flye and Pilon with approximately 8x long-reads and the original Illumina short-reads produced by JGI that were available from the SRA as of 02/2021, I was able to produce a draft *de novo* assembly with a Busco correctness score of 94.1%. I have yet to scaffold the Flye contigs.
 
 **Future Work** I would process the raw traces from the MinION using Bonito to basecall and sequence correct the new reads using Medaka. I would use the improved long-reads in conjunction with an optimized parametarization of LR_Gapcloser and the MycoCosm assembly, followed by a series of polishing steps using Racon for long-reads and Pilon for short-reads. I would scaffold the Flye contigs using the error correccted long-reads and run several polishing steps using Racon and Pilon.
 
